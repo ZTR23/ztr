@@ -24,17 +24,23 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#inverseNavbar1"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-      <a class="navbar-brand" href="#">HealthCare Services</a></div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
+      <a class="navbar-brand" href="index.html">TV Tracker</a></div>
     <div class="collapse navbar-collapse" id="inverseNavbar1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index2.html">Home<span class="sr-only">(current)</span></a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="emergency.html">Emergency</a></li>
-          <li><a href="treatment.html">Treatment</a></li>
-          <li><a href="dept.html">Departments</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+        <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+        
+        <li><a href="top.html">Top TV Shows</a></li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Genres<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="action.html">Action</a></li>
+            <li><a href="comedy.html">Comedy</a></li>
+            <li><a href="drama.html">Drama</a></li>
+            <li><a href="thriller.html">Thriller</a></li>
+            <li><a href="scifi.html">Sci-Fi</a></li>            
+          </ul>
         </li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
       </ul>
        
       
@@ -46,36 +52,97 @@
 <div class="container-fluid">
   <div class="row">
     <div>
-      <h1 class="text-center" style="font-size:48px">HealthCare Services</h1>
+      <h1 class="text-center" style="font-size:48px">TV Show Tracker</h1>
+      <div id="carousel1" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel1" data-slide-to="1"></li>
+          <li data-target="#carousel1" data-slide-to="2"></li>
+          <li data-target="#carousel1" data-slide-to="3"></li>
+		<li data-target="#carousel1" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active"><a href="breakingbad.html">
+          <img src="img/Breaking_Bad_Title_Sequence.jpg" height="768" width="1024" alt="First slide image" class="center-block">
+          </a>
+            <div class="carousel-caption">
+              <h3>Breaking Bad</h3>
+              <p>(2008 - 2013)</p>
+            </div>
+          </div>
+          <div class="item"><a href="arrow.html">
+          <img src="img/maxresdefault.jpg" alt="Second slide image" width="1024" height="768" class="center-block">
+          </a>
+            <div class="carousel-caption">
+              <h3>Arrow</h3>
+              <p>2012-</p>
+            </div>
+          </div>
+          <div class="item"><a href="sherlock.html">
+          <img src="img/sherlock-wallpaper-1366x768 (1).jpg" alt="Third slide image" width="1024" height="768" class="center-block">
+          </a>
+            <div class="carousel-caption">
+              <h3>Sherlock</h3>
+              <p>2010-</p>
+            </div>
+          </div>
+           <div class="item"><a href="mrrorbot.html">
+           <img src="img/mr.-robot-key-art1.jpg" alt="Third slide image" width="1024" height="768" class="center-block">
+           </a>
+            <div class="carousel-caption">
+              <h3>Mr. Robot</h3>
+              <p>2015-</p>
+            </div>
+          </div>
+            <div class="item"><a href="flash.html">
+            <img src="img/the_flash.jpg" alt="Third slide image" width="1024" height="768" class="center-block img-responsive">
+            </a>
+            <div class="carousel-caption">
+              <h3>The Flash</h3>
+              <p>2014-</p>
+            </div>
+          </div>
+
+        </div>
+        <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel1" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a></div>
     </div>
   </div>
 </div>
-<div class="jumbotron">
+<hr>
+
 <div class="container">
-  <h1>Welcome to XYZ Services</h1>
-  <p>Select from our wide range of services</p>
+  <h2 class="text-center">Upcoming episodes</h2>
+  <div class="list-group">
+    <a href="arrow.html" class="list-group-item">
+      <h4 class="list-group-item-heading">Arrow</h4>
+      <p class="list-group-item-text">S04 E02 The Candidate</p>
+    </a>
+    <a href="limitless.html" class="list-group-item">
+      <h4 class="list-group-item-heading">Limitless</h4>
+      <p class="list-group-item-text">S01 E04</p>
+    </a>
+    <a href="flash.html" class="list-group-item">
+      <h4 class="list-group-item-heading">The Flash</h4>
+      <p class="list-group-item-text">S02 E02</p>
+    </a>
+    <a href="tbbt.html" class="list-group-item">
+      <h4 class="list-group-item-heading">The Big Bang Theory</h4>
+      <p class="list-group-item-text">S09 E05</p>
+    </a>
+    <a href="sv.html" class="list-group-item">
+      <h4 class="list-group-item-heading">Sillicon Valley</h4>
+      <p class="list-group-item-text">S03 E01</p>
+    </a>
   </div>
 </div>
-<div class="container">
-  <div class="row w3-card-4">
-    <div class="text-justify col-sm-4">
-      <h3 class="text-center"> News</h3>
-      <p> Click here to select this<strong> column.</strong> Always place your content within a column. Columns are indicated by a dashed blue line. </p>
-    </div>
-    <div class="col-sm-4 text-justify">
-    <h3 class="text-center"> News</h3> You can <strong>resize a column</strong> using the handle on the right. Drag it to increase or reduce the number of columns.</div>
-    <div class="col-sm-4 text-justify"	>
-    <h3 class="text-center"> News</h3> You can <strong>offset a column</strong> using the handle on the left. Drag it to increase or reduce the offset. </div>
-  </div>
-      </div>
-      <hr>
+
+<hr>
+	  
   <div class="row w3-black footer">
     <div class="text-center col-md-6 col-md-offset-3">
-      <h4>Footer </h4>
-      <p>Copyright &copy; 2015 &middot; All Rights Reserved</p>
+      <p>Copyright TV Tracker &copy; 2015 &middot; All Rights Reserved</p>
     </div>
   </div>
-</div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="js/jquery-1.11.2.min.js"></script>
 
